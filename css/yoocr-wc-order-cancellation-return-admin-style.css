@@ -1,0 +1,31 @@
+.icon-button {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.woocommerce table.form-table textarea#woocommerce_order_return_request_additional_content {
+    width: 400px !important;
+}
+
+/* Premium */
+.yo-premium {
+    color: red;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: #a5a5a5;
+    padding: 12px;
+}
+.premium-label {
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #00a32a;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.premium-label:hover {
+    color: #ffffff;
+    background-color: rgb(26, 156, 26);
+}

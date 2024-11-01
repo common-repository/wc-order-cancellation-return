@@ -1,0 +1,31 @@
+=== WooCommerce Cancel / Return Orders (Free Version) ===
+
+== Changelog ==
+
+= 1.0.6 (Nov 1, 2024) =
+* Improved: Code optimized.
+* Fixed: Minor typos.
+
+= 1.0.5 (Oct 25, 2024) =
+* Improved: Changed some texts.
+* Fixed: Default settings for first time activation.
+
+= 1.0.4 (Sep 18, 2024) =
+* Fixed: PHP Fatal error.
+
+= 1.0.3 (Sep 11, 2024) =
+* Improved: Optimize for the time of loading the thank-you page.
+* Improved: Core improving.
+
+= 1.0.2 (Jul 22, 2024) =
+* Improved: Disable the cancellation and return requested email if the options are disable.
+* Improved: Minor improving.
+
+= 1.0.1 (Jul 10, 2024) =
+* New: Added the approval for cancellation.
+* New: Added option to enable/disable for cancellation and return approval.
+* New: Added the timer option for the cancellation and return request.
+* Improved: Core improving.
+
+= 1.0.0 =
+* Initial release with core features.

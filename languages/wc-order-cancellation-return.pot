@@ -1,0 +1,615 @@
+# Copyright (C) 2024 YoOhw.com
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Cancel / Return Orders 1.0.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-order-cancellation-return\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-11T04:40:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: wc-order-cancellation-return\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Cancel / Return Orders"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wc-order-cancellation-return"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allows the customers cancel and return their orders on WooCommerce site."
+msgstr ""
+
+#. Author of the plugin
+msgid "YoOhw.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://yoohw.com"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:24
+msgid "Your cancellation request has been approved."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:25
+msgid "Cancellation approved and order cancelled."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:29
+msgid "Cancellation has been approved and the order status updated to cancelled."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:36
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:38
+msgid "Invalid order or status cannot be changed."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:44
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:46
+msgid "Invalid nonce"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:49
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:51
+msgid "Unauthorized"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:57
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:59
+msgid "Invalid order ID or reason"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:63
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-cancellation.php:30
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-return.php:27
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:65
+msgid "Order not found"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:70
+msgid "Admin rejected cancellation request. Reason: %s || Order status changed from %s to %s."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:81
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:77
+msgid "Order rejection processed and reason saved"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-cancellation-approval.php:83
+msgid "Order is not in Request cancellation status"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-cancellation.php:24
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-return.php:45
+msgid "Invalid data"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-cancellation.php:35
+msgid "Order is requested for cancellation by customer. Reason: "
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-cancellation.php:41
+msgid "Order status changed to Cancellation requested."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-cancellation.php:46
+msgid "Order is waiting for review of request cancellation and noted."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-cancellation.php:49
+msgid "Order cancellation request processed without approval."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-cancellation.php:60
+msgid "Order cancelled by customer. Reason: "
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-cancellation.php:60
+msgid "Order status changed to Cancelled."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-return.php:32
+msgid "Order is requested for return by customer. Reason: "
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-return.php:36
+msgid "Order status changed from Completed to Return requested."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-return.php:39
+msgid "Order is waiting for review of request return and noted."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-return.php:42
+msgid "Order return request processed without approval."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-return.php:48
+msgid "Returns are not enabled."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-return.php:55
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-order-return.php:57
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:25
+msgid "Return approved and order refunded."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:24
+msgid "Your return request has been approved."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:34
+msgid "Return has been approved and the order status updated to refunded."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:70
+msgid "Return request rejected. Reason: "
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:73
+msgid "Admin rejected return request."
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-handle-return-approval.php:79
+msgid "Order is not in Request return status"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-order-status.php:23
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-order-status.php:53
+msgctxt "Order status"
+msgid "Return requested"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-order-status.php:28
+msgid "Request return <span class=\"count\">(%s)</span>"
+msgid_plural "Request returns <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-order-status.php:38
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-order-status.php:65
+msgctxt "Order status"
+msgid "Cancel requested"
+msgstr ""
+
+#: inc/backend/actions/yoocr-wc-order-cancellation-return-order-status.php:43
+msgid "Request cancellation <span class=\"count\">(%s)</span>"
+msgid_plural "Request cancellations <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:18
+msgid "Cancellation requested"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:18
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:18
+msgid "Reason:"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:22
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:22
+msgid "Approved"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:22
+msgid "Are you sure to approve this cancellation?"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:26
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:26
+msgid "Rejected"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:30
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:30
+msgid "Enter rejection reason"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:32
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:32
+msgid "Submit"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:33
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:33
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-cancel-button.php:74
+#: woocommerce/myaccount/orders.php:130
+msgid "Cancel"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:59
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:59
+msgid "Please enter a reason for rejection."
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:70
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:70
+msgid "Rejection submitted."
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-cancellation-approval.php:74
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:74
+msgid "Failed to submit rejection."
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:18
+#: woocommerce/myaccount/orders.php:191
+msgid "Return requested"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-edit-order-return-approval.php:22
+msgid "Are you sure to approve this return?"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:49
+msgid "Orders"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:60
+msgid "Order cancellation"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:66
+msgid "Enable cancellation"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:70
+msgid "Allows customers to cancel their orders."
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:73
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:142
+msgid "Order status"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:75
+msgid "Select statuses for which orders can be cancelled."
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:79
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:148
+msgid "Select order statuses"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:85
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:154
+msgid "Reasons"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:87
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:156
+msgid "One reason per line:"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:88
+msgid "Enter the reasons for order cancellation, one per line. If you leave it empty then the customer has to type an optional reason."
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:92
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:161
+msgid "Type each reason on a new line"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:103
+msgid "Cancel approval"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:107
+msgid "Enable approval to cancel the orders."
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:129
+msgid "Order return"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:135
+msgid "Enable return"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:139
+msgid "Allows customers to send a request to return their orders."
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:144
+msgid "Select statuses for which orders can be returned."
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:157
+msgid "Enter the reasons for order return, one per line. If you leave it empty then the customer has to type an optional reason."
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:172
+msgid "Return approval"
+msgstr ""
+
+#: inc/backend/yoocr-wc-order-cancellation-return-settings.php:176
+msgid "Enable approval to return the orders."
+msgstr ""
+
+#: inc/cores/yoocr-wc-order-cancellation-return-notices.php:20
+msgid "WooCommerce Order Cancellation / Return requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: inc/cores/yoocr-wc-order-cancellation-return-notices.php:48
+msgid "Thank you for using WooCommerce Order Cancellation / Return! Please consider <a href=\"https://wordpress.org/plugins/wc-order-cancellation-return/#reviews\" target=\"_blank\">leaving a review</a> <span style=\"color: #e26f56;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span> to help us improve and grow."
+msgstr ""
+
+#: inc/cores/yoocr-wc-order-cancellation-return-notices.php:54
+msgid "Never show this again"
+msgstr ""
+
+#: inc/cores/yoocr-wc-order-cancellation-return-scripts-locate-template-classes.php:22
+#: inc/cores/yoocr-wc-order-cancellation-return-scripts-locate-template-classes.php:29
+msgid "Sending..."
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-admin-email-cancelled-order.php:18
+msgid "Cancelled by shop manager."
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-admin-email-cancelled-order.php:22
+#: inc/emails/yoocr-wc-order-cancellation-return-admin-email-cancelled-order.php:24
+msgid "Reason for cancellation:"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-admin-email-order-cancel-request.php:19
+#: inc/emails/yoocr-wc-order-cancellation-return-admin-email-order-cancel-request.php:21
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-actions-record.php:46
+msgid "Cancellation reason:"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-admin-email-order-return-request.php:19
+#: inc/emails/yoocr-wc-order-cancellation-return-admin-email-order-return-request.php:21
+msgid "Return reason:"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:17
+msgid "Order cancellation request"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:18
+msgid "Notification emails sent to admin when a cancellation is requested."
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:20
+msgid "New cancellation request"
+msgstr ""
+
+#. translators: %s is the order number
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:23
+msgid "Cancellation requested for order #%s"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:45
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:45
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:47
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:47
+msgid "Enable this email notification"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:51
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:51
+msgid "Recipient(s)"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:53
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:53
+msgid "Enter recipients (comma separated) for this email."
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:58
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:58
+msgid "Subject"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:61
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:61
+msgid "This controls the email subject line."
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:66
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:66
+msgid "Email heading"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:69
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:69
+msgid "This controls the main heading contained within the email notification."
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:74
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:74
+msgid "Additional content"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:76
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:76
+msgid "This content will be inserted after the main email content."
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:81
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:81
+msgid "Email type"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-cancel-request-email.php:83
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:83
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:17
+msgid "Order return request"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:18
+msgid "Notification emails sent to admin when a return is requested."
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:20
+msgid "New return request"
+msgstr ""
+
+#. translators: %s is the order number
+#: inc/emails/yoocr-wc-order-cancellation-return-class-wc-order-return-request-email.php:23
+msgid "Return requested for order #%s"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-customer-email-completed-order.php:20
+#: inc/emails/yoocr-wc-order-cancellation-return-customer-email-completed-order.php:22
+msgid "Rejection reason:"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-customer-email-completed-order.php:31
+msgid "Your request for order return is rejected"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-customer-email-refunded-order.php:20
+#: inc/emails/yoocr-wc-order-cancellation-return-customer-email-refunded-order.php:22
+msgid "Return order:"
+msgstr ""
+
+#: inc/emails/yoocr-wc-order-cancellation-return-customer-email-refunded-order.php:31
+msgid "Your request for order return is approved"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-cancel-order-form.php:20
+msgid "Please leave your reason for the order cancellation:"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-cancel-order-form.php:29
+msgid "I cancel the order because:"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-cancel-order-form.php:29
+#: inc/frontend/yoocr-wc-order-cancellation-return-return-order-form.php:29
+msgid "Other reason"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-cancel-order-form.php:31
+#: inc/frontend/yoocr-wc-order-cancellation-return-return-order-form.php:31
+msgid "Please type your reason"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-cancel-order-form.php:33
+msgid "Confirm cancellation"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-cancel-order-form.php:34
+#: inc/frontend/yoocr-wc-order-cancellation-return-return-order-form.php:34
+msgid "Close"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-cancel-order-form.php:35
+#: inc/frontend/yoocr-wc-order-cancellation-return-return-order-form.php:35
+msgid "Please select or type your reason."
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-cancel-order-form.php:36
+#: inc/frontend/yoocr-wc-order-cancellation-return-return-order-form.php:36
+msgid "Please type your reason."
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-actions-record.php:16
+msgid "Return request:"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-actions-record.php:21
+msgid "Order return:"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-actions-record.php:26
+msgid "Return request rejected:"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-actions-record.php:31
+msgid "Cancellation request:"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-actions-record.php:36
+msgid "Order cancellation:"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-actions-record.php:41
+msgid "Cancellation request rejected:"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-cancel-button.php:78
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-return-button.php:78
+msgid "Waiting for approval"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-return-button.php:24
+msgid "Order again"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-order-details-return-button.php:73
+msgid "Request return"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-return-order-form.php:20
+msgid "Please leave your reason for the order return:"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-return-order-form.php:29
+msgid "I return the order because:"
+msgstr ""
+
+#: inc/frontend/yoocr-wc-order-cancellation-return-return-order-form.php:33
+msgid "Confirm request return"
+msgstr ""
+
+#. translators: %1$s: Order number, %2$s: Customer full name.
+#. translators: %1$s: Order number. %2$s: Customer full name
+#: woocommerce/emails/admin-order-cancel-request.php:22
+#: woocommerce/emails/admin-order-return-request.php:22
+#: woocommerce/emails/plain/admin-order-cancel-request.php:19
+#: woocommerce/emails/plain/admin-order-return-request.php:19
+msgid "Notification to let you know &mdash; %2$s has been requested for order #%1$s return:"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:45
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/orders.php:57
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:182
+msgid "Return"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:187
+msgid "Cancel requested"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:210
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:214
+msgid "Next"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:221
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:221
+msgid "Browse products"
+msgstr ""

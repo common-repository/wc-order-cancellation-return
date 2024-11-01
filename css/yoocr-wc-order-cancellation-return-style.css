@@ -1,0 +1,51 @@
+/* WC Order Cancellation Return */
+
+.woocommerce-order-details {
+    margin-bottom: 24px !important;
+}
+.order-again {
+    display: none !important;
+}
+#cancelOrderPopup, #returnOrderPopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    max-width: 500px;
+    width: 80%;
+}
+#cancelOrderPopup form, #returnOrderPopup form {
+    display: flex;
+    flex-direction: column;
+}
+#cancelOrderPopup textarea, #cancelOrderForm label, #returnOrderPopup textarea, #returnOrderForm label {
+    margin-bottom: 5px;
+}
+#cancelOrderPopup button, #returnOrderPopup button {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#cancelOrderPopup button.cancel-order, #returnOrderPopup button.return-order {
+    background: #9c9c9c;
+    color: #2e2e2e;
+}
+.error-message {
+    color: red;
+    display: none;
+    margin-top: 10px;
+}
+.hidden {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    #cancelOrderPopup, #returnOrderPopup {
+        width: 90%; 
+    }
+}
